@@ -56,16 +56,17 @@ Have the students work with you as you do something.
 
 #### Coding questions that use hash tables
 1. A person is represented in a JSON string, and the person's `name` is specified. Say hello to this person.
+2. 
 
 
 #### Implement a hash table
-Basics: put(), get(), hash()
+Basics: put(), get(), hash(), print()
 
-Challenge 1: Handle collisions with chaining
+Challenge 1: Handle collisions with chaining. Hint: What data structure should one use here?
 
 Challenge 2: Make the table larger when enough items are added to the table
 
 
 ### Check for Understanding
 
-Compare implementations of bucket collisions with a peer. Brainstorm different data structures one can use for implementing buckets. Code review others' hash table implementations: are clear parameter and method names used? Is the code DRY?
+Compare implementations of bucket collisions with a peer. Brainstorm different data structures one can use for implementing buckets. Code review others' hash table implementations: are clear parameter and method names used? Is the code DRY? Compare hashing algorithms used with a peer.
